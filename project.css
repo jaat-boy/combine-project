@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --ast-global-color-0: #e95930;
+    --ast-global-color-1: #946659;
+    --ast-global-color-2: #171921;
+    --ast-global-color-3: #30333a;
+    --ast-global-color-4: #fffaf8;
+    --ast-global-color-5: #FFFFFF;
+    --ast-global-color-6: #F2F5F7;
+    --ast-global-color-7: #e95930;
+    --ast-global-color-8: #000000;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.home_image img {
+    position: absolute;
+    right: 109px;
+    top: 202px;
+}
+
+
+
+.navbar-expand-lg{
+    background-color: var(--ast-global-color-5);
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--ast-global-color-0);
+}
+
+.nav-icon i {
+    transition: color 0.3s ease;
+    margin-left: 15px;
+}
+.nav-icon i:hover {
+    color: var(--ast-global-color-0);
+}
+
+.container-fliud{
+    background-color: var(--ast-global-color-4);
+
+}
+
+/* home section banner */
+
+.banner-text h1 {
+    font-size: 81px;  
+}
+
+@media (max-width: 990px) {
+
+    header {
+        margin: auto;
+    }
+    
+}
+
+
