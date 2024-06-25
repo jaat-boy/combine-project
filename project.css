@@ -11,17 +11,14 @@
     --ast-global-color-1: #946659;
     --ast-global-color-2: #171921;
     --ast-global-color-3: #30333a;
-    --ast-global-color-4: #fffaf8;
+    --ast-global-color-4: #ecc4b3;
     --ast-global-color-5: #FFFFFF;
     --ast-global-color-6: #F2F5F7;
     --ast-global-color-7: #e95930;
     --ast-global-color-8: #000000;
 }
 
-body h1{
-    font-family:"playfair display", sans-serif;
-    color: var(--ast-global-color-1);
-}
+
 header{
     position: sticky;
     top: 0;
@@ -64,6 +61,52 @@ header{
 .banner-text h1 {
     font-size: 81px;  
 }
+
+.banner-text span{
+    color:var(--ast-global-color-1)
+}
+
+.banner-text h1{
+   font-family: "Playfair display",sans-serif;
+}
+
+
+/* .logo_text section */
+.logo_text h5{
+    font-family: "Playfair display",sans-serif;
+    font-weight: 600;
+ }
+
+ .btn1 a{
+    background-color: var(--ast-global-color-1);
+    color: var(--ast-global-color-2);
+    border-radius: 0;
+    padding: 10px;
+    font-weight: 500px;
+    text-decoration: none;
+ }
+
+ .btn2 a {
+    background-color: var(--ast-global-color-6);
+    color: var(--ast-global-color-2);
+    border-radius: 0;
+    padding: 10px;
+    font-weight: 500;
+    margin: 10px;
+    text-decoration: none;
+
+ }
+
+ .btn2 a:hover{
+    background-color: var(--ast-global-color-0);
+    color: var(--ast-global-color-6);
+    transition: ease .5;
+ }
+ .btn1 a:hover{
+    background-color: var(--ast-global-color-0);
+    color: var(--ast-global-color-6);
+    transition: ease .5;
+ }
 
 @media (max-width: 990px) {
 
