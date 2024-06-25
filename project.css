@@ -18,6 +18,10 @@
     --ast-global-color-8: #000000;
 }
 
+body h1{
+    font-family:"playfair display", sans-serif;
+    color: var(--ast-global-color-1);
+}
 header{
     position: sticky;
     top: 0;
