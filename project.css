@@ -21,15 +21,8 @@
 header{
     position: sticky;
     top: 0;
+    z-index: 999;
 }
-
-.home_image img {
-    position: absolute;
-    right: 109px;
-    top: 202px;
-}
-
-
 
 .navbar-expand-lg{
     background-color: var(--ast-global-color-5);
@@ -53,10 +46,16 @@ header{
 
 .container-fliud{
     background-color: var(--ast-global-color-4);
+    padding-bottom: 40px;
 
 }
 
 /* home section banner */
+.baner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 .banner-text h1 {
     font-size: 81px;  
