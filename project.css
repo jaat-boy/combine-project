@@ -11,7 +11,7 @@
     --ast-global-color-1: #946659;
     --ast-global-color-2: #171921;
     --ast-global-color-3: #30333a;
-    --ast-global-color-4: #ecc4b3;
+    --ast-global-color-4: #e3b7a4;
     --ast-global-color-5: #FFFFFF;
     --ast-global-color-6: #F2F5F7;
     --ast-global-color-7: #e95930;
@@ -20,7 +20,7 @@
 
 
 header{
-    position: sticky;
+    position: static;
     top: 0;
     z-index: 999;
 }
@@ -52,10 +52,11 @@ header{
 }
 
 /* home section banner */
-.baner-container{
+.baner-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 83px 14px;
 }
 
 .banner-text h1 {
@@ -100,13 +101,176 @@ header{
  .btn2 a:hover{
     background-color: var(--ast-global-color-0);
     color: var(--ast-global-color-6);
-    transition: ease .5;
+    transition: ease .3s;
  }
  .btn1 a:hover{
     background-color: var(--ast-global-color-0);
     color: var(--ast-global-color-6);
-    transition: ease .5;
+    transition: ease .3s;
  }
+
+ /* 'A Word From The Author' section */
+
+ #second_section{
+    padding: 50px;
+ }
+ 
+ .about-image_text {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 80px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-image {
+    padding: 15px;
+    margin-right: 80px ;
+}
+
+.about-image_text h2{
+    font-family: "Playfair display",sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px ;
+}
+
+.about-image_text .read_more a{
+    background-color: var(--ast-global-color-1);
+    color: var(--ast-global-color-6);
+    border-radius: 0;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.about-image_text p{
+    padding-bottom: 20px ;
+}
+
+.about-image_text .read_more  a:hover{
+    background-color: var(--ast-global-color-0);
+    transition: ease .3s;
+}
+
+.elementor-divider-separator::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    background-color:var(--ast-global-color-0);
+    margin: 5px; 
+}
+
+/* Additional styles to better visualize the separator */
+.elementor-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.elementor-divider-separator {
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    background-color: var(--ast-global-color-1);
+}
+
+.Kathryn{
+    font-family: "Playfair display",sans-serif;
+    font-weight: 600;
+    padding-bottom: 5px ;
+}
+
+.Entrepreneur{
+    font-weight: 200;
+}
+
+.social_media{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.social_media a {
+    text-decoration: none;
+}
+.social_media i{
+    background-color: var(--ast-global-color-1);
+    color: var(--ast-global-color-6);
+    padding: 8px 10px;
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.social_media i:hover{
+    box-shadow: 0 0 20px rgba(108, 173, 243, 0.8);
+}
+
+/* .smoke_conatiner book and book_image CSS */
+/* container backgroung-color CSS */
+#smoke_conatiner_color{
+    background-color: var(--ast-global-color-4);
+}
+#smoke_conatiner-main{
+    padding: 78px;
+}
+
+.smoke_conatiner .Complete{
+   padding-bottom: 20px;
+}
+.smoke_conatiner .Complete span{
+    color: var(--ast-global-color-1);
+    font-size: 20px;
+}
+
+.smoke_conatiner {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 167px;
+    line-height: 30px;
+}
+
+.smoke_conatiner .sec3_heading{
+    padding: 10px 0px;
+}
+
+.smoke_conatiner .sec3_heading h2{
+    font-family: "Playfair display",sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+/* .sec3_heading css */
+.sec3_para p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.buy_complete-series_btn{
+    padding-top: 20px;
+}
+
+.buy_complete-series_btn a{
+    background-color: var(--ast-global-color-1);
+    color: var(--ast-global-color-5);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: ease-in 0.3s;
+}
+
+.buy_complete-series_btn a:hover{
+    background-color: var(--ast-global-color-0);
+}
+
+
+/* .book_image css */
+ .bokk_series-image .book_img_1 img, .bokk_series-image .book_img_2 img{
+    width: 200px;
+    margin-bottom: 5px;
+ }
+ .book_image{
+    padding: 20px 10px;
+}
 
 @media (max-width: 990px) {
 
