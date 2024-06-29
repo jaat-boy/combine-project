@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "personal_project",
+			"path": "../../../Desktop/personal_project"
+		},
+		{
+			"name": "combine-project",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "combine-project"
+	}
+}
